@@ -16,4 +16,4 @@ def hello(name=None):
             abort(404)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
